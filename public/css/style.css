@@ -1,0 +1,92 @@
+
+* {
+  transition: .4s;
+}
+
+body {
+  color: white;
+  padding: 0 !important;
+}
+
+header, footer {
+  background-color: rgb(105, 182, 150);
+}
+
+#logo-img img {
+  width: 100%;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+ul {
+  margin-top: 24px;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+a {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
+  padding: 8px 20px;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(207, 201, 66);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main {
+  background-color: rgb(88, 161, 160);
+}
+
+.main-content {
+  margin: 100px 0 100px 150px;
+}
+
+.post-title {
+  background-color: rgb(11, 125, 198);
+  padding: 60px;
+  border-radius: 20px 20px 0 0;
+  font-family: 'Federant', cursive;
+}
+
+.post-text {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 60px;
+  border-radius: 0 0 20px 20px;
+  color: rgb(54, 54, 54);
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.main-edge {
+  background: linear-gradient(rgba(48, 51, 71, 0.6), rgba(48, 51, 71, 0.1));
+  height: 100%;
+  margin: 100px 0 100px 70px;
+  border-radius: 10px;
+}
+
+.main-edge p {
+  padding: 10px;
+  font-size: 30px;
+}
+
+footer img {
+  width: 80%;
+  margin-left: 20%;
+}
+
+footer p {
+  color: black;
+  font-size: 24px;
+  margin-top: 30px;
+  float: right;
+}

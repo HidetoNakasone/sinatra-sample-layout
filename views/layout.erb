@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Kosugi+Maru" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Federant" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= @title %></title>
+  </head>
+  <body class="container-fluid">
+
+    <header class="row">
+      <div class="col-1" id="logo-img">
+        <img src="/imgs/logo.jpg">
+      </div>
+      <div class="col-11">
+        <ul>
+          <li><a href="/">記事1へ</a></li>
+          <li><a href="/next">記事2へ</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="row">
+
+      <%= yield %>
+
+    </main>
+
+    <footer class="row">
+      <div class="col-10">
+        <p>Copyright &copy; 2018 HEP! all rights reserved.</p>
+      </div>
+      <div class="col-2">
+        <img src="/imgs/logo_right.png">
+      </div>
+    </footer>
+
+  </body>
+</html>
